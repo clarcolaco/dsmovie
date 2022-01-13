@@ -1,5 +1,4 @@
 import './styles.css';
-
 export default function Form() {
       const movie = {
             id: 1,
@@ -32,10 +31,10 @@ export default function Form() {
                                           </select>
                                     </div>
                                     <div className="dsmovie-form-btn-container">
-                                          <button type="submit" className="btn btn-secondary dsmovie-btn">Salvar</button>
+                                          <button type="submit" className="btn btn-outline-danger dsmovie-btn">Salvar</button>
                                     </div>
                               </form >
-                              <button className="btn btn-secondary dsmovie-btn mt-3">Cancelar</button>
+                              <button className="btn btn-outline-dark dsmovie-btn mt-3">Cancelar</button>
                         </div >
                   </div >
             </>
