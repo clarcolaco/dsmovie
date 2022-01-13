@@ -9,12 +9,11 @@ import Navbar from "components/Navbar";
 
 function App() {
   return (
+    /* funcionamento das rotas
+    listing é a pag inicial */
     <BrowserRouter>
       <Navbar />
       <Routes>
-
-      /* funcionamento das rotas */
-
         <Route path="/" element={<Listing />} />
         <Route path="/form">
           <Route path=":movieId" element={<Form />} />
