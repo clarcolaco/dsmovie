@@ -1,5 +1,4 @@
 import MovieScore from "components/MovieScore";
-import './styles.css';
 
 export default function Moviecard() {
       const movie = {
@@ -17,7 +16,7 @@ export default function Moviecard() {
                   <div className="dsmovie-card-bottom-container">
                         <h3>{movie.title}</h3>
                         <MovieScore />
-                        <div className="btn btn-primary dsmovie-btn">Avaliar</div>
+                        <div className="btn btn-outline-danger dsmovie-btn">Avaliar</div>
                   </div>
             </div>
       </>);

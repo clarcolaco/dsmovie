@@ -8,7 +8,7 @@ export default function Listing() {
             // pagina principal - setada na rota
             // componente de arrow <Arrow /> - paginação
             <>
-                  <p>Listagem de filmes</p>
+
 
                   <Pagination />
 
